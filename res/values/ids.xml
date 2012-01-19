@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="wallpaper">false</item>
+    <item type="id" name="cmtheme">false</item>
+    <item type="id" name="adwtheme">false</item>
+    <item type="id" name="lpsetting">false</item>
+    <item type="id" name="filebugs">false</item>
+    <item type="id" name="web">false</item>
+    <item type="id" name="marketinfo">false</item>
+    <item type="id" name="scrollView1">false</item>
+    <item type="id" name="linearLayout2">false</item>
+    <item type="id" name="icon_grid">false</item>
+    <item type="id" name="gallery">false</item>
+    <item type="id" name="set">false</item>
+</resources>

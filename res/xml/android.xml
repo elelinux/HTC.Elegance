@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # Copyright (C) 2011 Esa Laukkanen <ele.linux@gmail.com>
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+ # you may not use this file except in compliance with the License.
+ # You may obtain a copy of the License at
+ #
+ #      http://www.apache.org/licenses/LICENSE-2.0
+ #
+ # Unless required by applicable law or agreed to in writing, software
+ # distributed under the License is distributed on an "AS IS" BASIS,
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ -->
+
+<resource-redirections>
+    <item name="style/Theme">@style/Theme</item>
+    <item name="drawable/call_background">@drawable/system_background</item>
+ 
+    <!-- Icons  2011-08-29  -->
+    <item name="drawable/activity_title_bar">@drawable/frameworks_res_activity_title_bar</item>
+    <item name="drawable/bottombar_565">@drawable/frameworks_res_bottom_bar</item>
+    <item name="drawable/bottom_bar">@drawable/frameworks_res_bottom_bar</item>
+    <item name="drawable/btn_check_buttonless_off">@drawable/frameworks_res_btn_check_buttonless_off</item>
+    <item name="drawable/btn_check_buttonless_on">@drawable/frameworks_res_btn_check_buttonless_on</item>
+    <item name="drawable/btn_check_label_background">@drawable/frameworks_res_btn_check_label_background</item>
+
+    <item name="drawable/btn_check_off">@drawable/frameworks_res_btn_check_off</item>
+    <item name="drawable/btn_check_off_disable">@drawable/frameworks_res_btn_check_off_disable</item>
+    <item name="drawable/btn_check_off_disable_focused">@drawable/frameworks_res_btn_check_off_disable_focused</item>
+    <item name="drawable/btn_check_off_pressed">@drawable/frameworks_res_btn_check_off_pressed</item>
+    <item name="drawable/btn_check_off_selected">@drawable/frameworks_res_btn_check_off_selected</item>  
+  
+    <item name="drawable/btn_check_on">@drawable/frameworks_res_btn_check_on</item>
+    <item name="drawable/btn_check_on_disable">@drawable/frameworks_res_btn_check_on_disable</item>
+    <item name="drawable/btn_check_on_disable_focused">@drawable/frameworks_res_btn_check_on_disable_focused</item>
+    <item name="drawable/btn_check_on_pressed">@drawable/frameworks_res_btn_check_on_pressed</item>
+    <item name="drawable/btn_check_on_selected">@drawable/frameworks_res_btn_check_on_selected</item>
+
+    <item name="drawable/btn_circle_disable">@drawable/frameworks_res_btn_circle_disable</item>
+    <item name="drawable/btn_circle_disable_focused">@drawable/frameworks_res_btn_circle_disable_focused</item>
+    <item name="drawable/btn_circle_normal">@drawable/frameworks_res_btn_circle_normal</item>
+    <item name="drawable/btn_circle_pressed">@drawable/frameworks_res_btn_circle_pressed</item>
+    <item name="drawable/btn_circle_selected">@drawable/frameworks_res_btn_circle_selected</item>
+
+    <item name="drawable/btn_close_normal">@drawable/frameworks_res_btn_close_normal</item>
+    <item name="drawable/btn_close_pressed">@drawable/frameworks_res_btn_close_pressed</item>
+    <item name="drawable/btn_close_selected">@drawable/frameworks_res_btn_close_selected</item>
+
+    <item name="drawable/btn_default_normal">@drawable/frameworks_res_btn_default_normal</item>
+    <item name="drawable/btn_default_normal_disable">@drawable/frameworks_res_btn_default_normal_disable</item>
+    <item name="drawable/btn_default_normal_disable_focused">@drawable/frameworks_res_btn_default_normal_disable_focused</item>
+    <item name="drawable/btn_default_pressed">@drawable/frameworks_res_btn_default_pressed</item>
+    <item name="drawable/btn_default_selected">@drawable/frameworks_res_btn_default_selected</item>
+
+    <item name="drawable/btn_default_small_normal">@drawable/frameworks_res_btn_default_small_normal</item>
+    <item name="drawable/btn_default_small_normal_disable">@drawable/frameworks_res_btn_default_small_normal_disable</item>
+    <item name="drawable/btn_default_small_normal_disable_focused">@drawable/frameworks_res_btn_default_small_normal_disable_focused</item>
+    <item name="drawable/btn_default_small_pressed">@drawable/frameworks_res_btn_default_small_pressed</item>
+    <item name="drawable/btn_default_small_selected">@drawable/frameworks_res_btn_default_small_selected</item>
+    <item name="drawable/btn_default_transparent_normal">@drawable/frameworks_res_btn_default_transparent_normal</item>
+
+    <item name="drawable/btn_dialog_disable">@drawable/frameworks_res_btn_dialog_disable</item>
+    <item name="drawable/btn_dialog_normal">@drawable/frameworks_res_btn_dialog_normal</item>
+    <item name="drawable/btn_dialog_pressed">@drawable/frameworks_res_btn_dialog_pressed</item>
+    <item name="drawable/btn_dialog_selected">@drawable/frameworks_res_btn_dialog_selected</item>
+
+    <item name="drawable/btn_dropdown_disabled">@drawable/frameworks_res_btn_dropdown_disabled</item>
+    <item name="drawable/btn_dropdown_disabled_focused">@drawable/frameworks_res_btn_dropdown_disabled_focused</item>
+    <item name="drawable/btn_dropdown_normal">@drawable/frameworks_res_btn_dropdown_normal</item>
+    <item name="drawable/btn_dropdown_pressed">@drawable/frameworks_res_btn_dropdown_pressed</item>
+    <item name="drawable/btn_dropdown_selected">@drawable/frameworks_res_btn_dropdown_selected</item>
+
+    <item name="drawable/btn_erase_default">@drawable/frameworks_res_btn_erase_default</item>
+    <item name="drawable/btn_erase_pressed">@drawable/frameworks_res_btn_erase_pressed</item>
+    <item name="drawable/btn_erase_selected">@drawable/frameworks_res_btn_erase_selected</item>
+    <item name="drawable/btn_global_search_normal">@drawable/frameworks_res_btn_global_search_normal</item>
+ 
+    <item name="drawable/btn_keyboard_key_fulltrans_normal">@drawable/frameworks_res_btn_keyboard_key_fulltrans_normal</item>
+    <item name="drawable/btn_keyboard_key_fulltrans_normal_off">@drawable/frameworks_res_btn_keyboard_key_fulltrans_normal_off</item>
+    <item name="drawable/btn_keyboard_key_fulltrans_normal_on">@drawable/frameworks_res_btn_keyboard_key_fulltrans_normal_on</item>
+    <item name="drawable/btn_keyboard_key_fulltrans_pressed">@drawable/frameworks_res_btn_keyboard_key_fulltrans_pressed</item>
+    <item name="drawable/btn_keyboard_key_fulltrans_pressed_off">@drawable/frameworks_res_btn_keyboard_key_fulltrans_pressed_off</item>
+    <item name="drawable/btn_keyboard_key_fulltrans_pressed_on">@drawable/frameworks_res_btn_keyboard_key_fulltrans_pressed_on</item>
+    <item name="drawable/btn_keyboard_key_normal">@drawable/frameworks_res_btn_keyboard_key_normal</item>
+    <item name="drawable/btn_keyboard_key_normal_off">@drawable/frameworks_res_btn_keyboard_key_normal_off</item>
+    <item name="drawable/btn_keyboard_key_normal_on">@drawable/frameworks_res_btn_keyboard_key_normal_on</item>
+    <item name="drawable/btn_keyboard_key_pressed">@drawable/frameworks_res_btn_keyboard_key_pressed</item>
+    <item name="drawable/btn_keyboard_key_pressed_off">@drawable/frameworks_res_btn_keyboard_key_pressed_off</item>
+    <item name="drawable/btn_keyboard_key_pressed_on">@drawable/frameworks_res_btn_keyboard_key_pressed_on</item>
+    <item name="drawable/btn_keyboard_key_trans_normal">@drawable/frameworks_res_btn_keyboard_key_trans_normal</item>
+    <item name="drawable/btn_keyboard_key_trans_normal_off">@drawable/frameworks_res_btn_keyboard_key_trans_normal_off</item>
+    <item name="drawable/btn_keyboard_key_trans_normal_on">@drawable/frameworks_res_btn_keyboard_key_trans_normal_on</item>
+    <item name="drawable/btn_keyboard_key_trans_pressed">@drawable/frameworks_res_btn_keyboard_key_trans_pressed</item>
+    <item name="drawable/btn_keyboard_key_trans_pressed_off">@drawable/frameworks_res_btn_keyboard_key_trans_pressed_off</item>
+    <item name="drawable/btn_keyboard_key_trans_pressed_on">@drawable/frameworks_res_btn_keyboard_key_trans_pressed_on</item>
+    <item name="drawable/btn_keyboard_key_trans_selected">@drawable/frameworks_res_btn_keyboard_key_trans_selected</item>
+
+    <item name="drawable/btn_media_player">@drawable/frameworks_res_btn_media_player</item>
+    <item name="drawable/btn_media_player_disabled">@drawable/frameworks_res_btn_media_player_disabled</item>
+    <item name="drawable/btn_media_player_disabled_selected">@drawable/frameworks_res_btn_media_player_disabled_selected</item>
+    <item name="drawable/btn_media_player_pressed">@drawable/frameworks_res_btn_media_player_pressed</item>
+    <item name="drawable/btn_media_player_selected">@drawable/frameworks_res_btn_media_player_selected</item>
+
+    <item name="drawable/btn_minus_default">@drawable/frameworks_res_btn_minus_default</item>
+    <item name="drawable/btn_minus_disable">@drawable/frameworks_res_btn_minus_disable</item>
+    <item name="drawable/btn_minus_disable_focused">@drawable/frameworks_res_btn_minus_disable_focused</item>
+    <item name="drawable/btn_minus_pressed">@drawable/frameworks_res_btn_minus_pressed</item>
+    <item name="drawable/btn_minus_selected">@drawable/frameworks_res_btn_minus_selected</item>
+
+    <item name="drawable/btn_plus_default">@drawable/frameworks_res_btn_plus_default</item>
+    <item name="drawable/btn_plus_disable">@drawable/frameworks_res_btn_plus_disable</item>
+    <item name="drawable/btn_plus_disable_focused">@drawable/frameworks_res_btn_plus_disable_focused</item>
+    <item name="drawable/btn_plus_pressed">@drawable/frameworks_res_btn_plus_pressed</item>
+    <item name="drawable/btn_plus_selected">@drawable/frameworks_res_btn_plus_selected</item>
+
+    <item name="drawable/btn_radio_label_background">@drawable/frameworks_res_btn_radio_label_background</item>
+    <item name="drawable/btn_radio_off">@drawable/frameworks_res_btn_radio_off</item>
+    <item name="drawable/btn_radio_off_pressed">@drawable/frameworks_res_btn_radio_off_pressed</item>
+    <item name="drawable/btn_radio_off_selected">@drawable/frameworks_res_btn_radio_off_selected</item>
+    <item name="drawable/btn_radio_on">@drawable/frameworks_res_btn_radio_on</item>
+    <item name="drawable/btn_radio_on_pressed">@drawable/frameworks_res_btn_radio_on_pressed</item>
+    <item name="drawable/btn_radio_on_selected">@drawable/frameworks_res_btn_radio_on_selected</item>
+
+    <item name="drawable/btn_rating_star_off_normal">@drawable/frameworks_res_btn_rating_star_off_normal</item>
+    <item name="drawable/btn_rating_star_off_pressed">@drawable/frameworks_res_btn_rating_star_off_pressed</item>
+    <item name="drawable/btn_rating_star_off_selected">@drawable/frameworks_res_btn_rating_star_off_selected</item>
+    <item name="drawable/btn_rating_star_on_normal">@drawable/frameworks_res_btn_rating_star_on_normal</item>
+    <item name="drawable/btn_rating_star_on_pressed">@drawable/frameworks_res_btn_rating_star_on_pressed</item>
+    <item name="drawable/btn_rating_star_on_selected">@drawable/frameworks_res_btn_rating_star_on_selected</item>
+
+    <item name="drawable/btn_search_dialog_default">@drawable/frameworks_res_btn_search_dialog_default</item>
+    <item name="drawable/btn_search_dialog_pressed">@drawable/frameworks_res_btn_search_dialog_pressed</item>
+    <item name="drawable/btn_search_dialog_selected">@drawable/frameworks_res_btn_search_dialog_selected</item>
+    <item name="drawable/btn_search_dialog_voice_default">@drawable/frameworks_res_btn_search_dialog_voice_default</item>
+    <item name="drawable/btn_search_dialog_voice_pressed">@drawable/frameworks_res_btn_search_dialog_voice_pressed</item>
+    <item name="drawable/btn_search_dialog_voice_selected">@drawable/frameworks_res_btn_search_dialog_voice_selected</item>
+
+    <item name="drawable/btn_square_overlay_disabled">@drawable/frameworks_res_btn_square_overlay_disabled</item>
+    <item name="drawable/btn_square_overlay_disabled_focused">@drawable/frameworks_res_btn_square_overlay_disabled_focused</item>
+    <item name="drawable/btn_square_overlay_normal">@drawable/frameworks_res_btn_square_overlay_normal</item>
+    <item name="drawable/btn_square_overlay_pressed">@drawable/frameworks_res_btn_square_overlay_pressed</item>
+    <item name="drawable/btn_square_overlay_selected">@drawable/frameworks_res_btn_square_overlay_selected</item>
+
+    <item name="drawable/btn_star_big_off_disable">@drawable/frameworks_res_btn_star_big_off_disable</item>
+    <item name="drawable/btn_star_big_off_disable_focused">@drawable/frameworks_res_btn_star_big_off_disable_focused</item>
+    <item name="drawable/btn_star_big_off">@drawable/frameworks_res_btn_star_big_off</item>
+    <item name="drawable/btn_star_big_off_pressed">@drawable/frameworks_res_btn_star_big_off_pressed</item>
+    <item name="drawable/btn_star_big_off_selected">@drawable/frameworks_res_btn_star_big_off_selected</item>
+    <item name="drawable/btn_star_big_on_disable">@drawable/frameworks_res_btn_star_big_on_disable</item>
+    <item name="drawable/btn_star_big_on_disable_focused">@drawable/frameworks_res_btn_star_big_on_disable_focused</item>
+    <item name="drawable/btn_star_big_on">@drawable/frameworks_res_btn_star_big_on</item>
+    <item name="drawable/btn_star_big_on_pressed">@drawable/frameworks_res_btn_star_big_on_pressed</item>
+    <item name="drawable/btn_star_big_on_selected">@drawable/frameworks_res_btn_star_big_on_selected</item>
+    <item name="drawable/btn_star_label_background">@drawable/frameworks_res_btn_star_label_background</item>
+
+    <item name="drawable/btn_toggle_off">@drawable/frameworks_res_btn_toggle_off</item>
+    <item name="drawable/btn_toggle_on">@drawable/frameworks_res_btn_toggle_on</item>
+
+    <item name="drawable/btn_zoom_down_disabled">@drawable/frameworks_res_btn_zoom_down_disabled</item>
+    <item name="drawable/btn_zoom_down_disabled_focused">@drawable/frameworks_res_btn_zoom_down_disabled_focused</item>
+    <item name="drawable/btn_zoom_down_normal">@drawable/frameworks_res_btn_zoom_down_normal</item>
+    <item name="drawable/btn_zoom_down_pressed">@drawable/frameworks_res_btn_zoom_down_pressed</item>
+    <item name="drawable/btn_zoom_down_selected">@drawable/frameworks_res_btn_zoom_down_selected</item>
+    <item name="drawable/btn_zoom_page_normal">@drawable/frameworks_res_btn_zoom_page_normal</item>
+    <item name="drawable/btn_zoom_page_press">@drawable/frameworks_res_btn_zoom_page_press</item>
+    <item name="drawable/btn_zoom_up_disabled">@drawable/frameworks_res_btn_zoom_up_disabled</item>
+    <item name="drawable/btn_zoom_up_disabled_focused">@drawable/frameworks_res_btn_zoom_up_disabled_focused</item>
+    <item name="drawable/btn_zoom_up_normal">@drawable/frameworks_res_btn_zoom_up_normal</item>
+    <item name="drawable/btn_zoom_up_pressed">@drawable/frameworks_res_btn_zoom_up_pressed</item>
+    <item name="drawable/btn_zoom_up_selected">@drawable/frameworks_res_btn_zoom_up_selected</item>
+
+    <item name="drawable/button_onoff_indicator_off">@drawable/frameworks_res_button_onoff_indicator_off</item>
+    <item name="drawable/button_onoff_indicator_on">@drawable/frameworks_res_button_onoff_indicator_on</item>
+
+    <item name="drawable/call_contact">@drawable/frameworks_res_call_contact</item>
+    <item name="drawable/checkbox_off_background">@drawable/frameworks_res_checkbox_off_background</item>
+    <item name="drawable/checkbox_on_background">@drawable/frameworks_res_checkbox_on_background</item>
+    <item name="drawable/clock_dial">@drawable/frameworks_res_clock_dial</item>
+    <item name="drawable/clock_hand_hour">@drawable/frameworks_res_clock_hand_hour</item>
+    <item name="drawable/clock_hand_minute">@drawable/frameworks_res_clock_hand_minute</item>
+    <item name="drawable/code_lock_bottom">@drawable/frameworks_res_code_lock_bottom</item>
+    <item name="drawable/code_lock_left">@drawable/frameworks_res_code_lock_left</item>
+    <item name="drawable/code_lock_top">@drawable/frameworks_res_code_lock_top</item>
+    <item name="drawable/combobox_disabled">@drawable/frameworks_res_combobox_disabled</item>
+    <item name="drawable/combobox_nohighlight">@drawable/frameworks_res_combobox_nohighlight</item>
+    <item name="drawable/compass_arrow">@drawable/frameworks_res_compass_arrow</item>
+    <item name="drawable/compass_base">@drawable/frameworks_res_compass_base</item>
+    <item name="drawable/contact_header_bg">@drawable/frameworks_res_contact_header_bg</item>
+    <item name="drawable/create_contact">@drawable/frameworks_res_create_contact</item>
+    <item name="drawable/dark_header">@drawable/frameworks_res_dark_header</item>
+
+    <item name="drawable/dialog_divider_horizontal_light">@drawable/frameworks_res_dialog_divider_horizontal_light</item>
+    <item name="drawable/divider_horizontal_bright">@drawable/frameworks_res_divider_horizontal_bright</item>
+    <item name="drawable/divider_horizontal_bright_opaque">@drawable/frameworks_res_divider_horizontal_bright_opaque</item>
+    <item name="drawable/divider_horizontal_dark">@drawable/frameworks_res_divider_horizontal_dark</item>
+    <item name="drawable/divider_horizontal_dark_opaque">@drawable/frameworks_res_divider_horizontal_dark_opaque</item>
+    <item name="drawable/divider_horizontal_dim_dark">@drawable/frameworks_res_divider_horizontal_dim_dark</item>
+    <item name="drawable/divider_horizontal_textfield">@drawable/frameworks_res_divider_horizontal_textfield</item>
+    <item name="drawable/divider_vertical_bright">@drawable/frameworks_res_divider_vertical_bright</item>
+    <item name="drawable/divider_vertical_bright_opaque">@drawable/frameworks_res_divider_vertical_bright_opaque</item>
+    <item name="drawable/divider_vertical_dark">@drawable/frameworks_res_divider_vertical_dark</item>
+    <item name="drawable/divider_vertical_dark_opaque">@drawable/frameworks_res_divider_vertical_dark_opaque</item>
+
+    <item name="drawable/editbox_background_focus_yellow">@drawable/frameworks_res_editbox_background_focus_yellow</item>
+    <item name="drawable/editbox_background_normal">@drawable/frameworks_res_editbox_background_normal</item>
+    <item name="drawable/editbox_dropdown_background">@drawable/frameworks_res_editbox_dropdown_background</item>
+    <item name="drawable/editbox_dropdown_background_dark">@drawable/frameworks_res_editbox_dropdown_background_dark</item>
+    <item name="drawable/expander_ic_maximized">@drawable/frameworks_res_expander_ic_maximized</item>
+    <item name="drawable/expander_ic_minimized">@drawable/frameworks_res_expander_ic_minimized</item>
+
+    <item name="drawable/focused_application_background_static">@drawable/frameworks_res_focused_application_background_static</item>
+    <item name="drawable/frame_gallery_thumb">@drawable/frameworks_res_frame_gallery_thumb</item>
+    <item name="drawable/frame_gallery_thumb_pressed">@drawable/frameworks_res_frame_gallery_thumb_pressed</item>
+    <item name="drawable/frame_gallery_thumb_selected">@drawable/frameworks_res_frame_gallery_thumb_selected</item>
+    <item name="drawable/gallery_selected_default">@drawable/frameworks_res_gallery_selected_default</item>
+    <item name="drawable/gallery_selected_focused">@drawable/frameworks_res_gallery_selected_focused</item>
+    <item name="drawable/gallery_selected_pressed">@drawable/frameworks_res_gallery_selected_pressed</item>
+    <item name="drawable/gallery_unselected_default">@drawable/frameworks_res_gallery_unselected_default</item>
+    <item name="drawable/gallery_unselected_pressed">@drawable/frameworks_res_gallery_unselected_pressed</item>
+    <item name="drawable/grid_selector_background_focus">@drawable/frameworks_res_grid_selector_background_focus</item>
+    <item name="drawable/grid_selector_background_pressed">@drawable/frameworks_res_grid_selector_background_pressed</item>
+    <item name="drawable/highlight_disabled">@drawable/frameworks_res_highlight_disabled</item>
+    <item name="drawable/highlight_pressed">@drawable/frameworks_res_highlight_pressed</item>
+    <item name="drawable/highlight_selected">@drawable/frameworks_res_highlight_selected</item>
+
+    <item name="drawable/ic_aggregated">@drawable/frameworks_res_ic_aggregated</item>
+    <item name="drawable/ic_btn_round_more_disabled">@drawable/frameworks_res_ic_btn_round_more_disabled</item>
+    <item name="drawable/ic_btn_round_more_normal">@drawable/frameworks_res_ic_btn_round_more_normal</item>
+    <item name="drawable/ic_btn_search">@drawable/frameworks_res_ic_btn_search</item> 
+    <item name="drawable/ic_btn_search_go">@drawable/frameworks_res_ic_btn_search_go</item>
+    <item name="drawable/ic_btn_speak_now">@drawable/frameworks_res_ic_btn_speak_now</item>  
+    <item name="drawable/ic_btn_square_browser_zoom_fit_page_disabled">@drawable/frameworks_res_ic_btn_square_browser_zoom_fit_page_disabled</item> 
+    <item name="drawable/ic_btn_square_browser_zoom_fit_page_normal">@drawable/frameworks_res_ic_btn_square_browser_zoom_fit_page_normal</item>
+    <item name="drawable/ic_btn_square_browser_zoom_page_overview_disabled">@drawable/frameworks_res_ic_btn_square_browser_zoom_page_overview_disabled</item>
+    <item name="drawable/ic_btn_square_browser_zoom_page_overview_normal">@drawable/frameworks_res_ic_btn_square_browser_zoom_page_overview_normal</item>
+
+    <item name="drawable/ic_bullet_key_permission">@drawable/frameworks_res_ic_bullet_key_permission</item>
+    <item name="drawable/ic_contact_picture">@drawable/frameworks_res_ic_contact_picture</item>
+    <item name="drawable/ic_contact_picture_2">@drawable/frameworks_res_ic_contact_picture_2</item>
+    <item name="drawable/ic_contact_picture_3">@drawable/frameworks_res_ic_contact_picture_3</item>
+    <item name="drawable/ic_delete">@drawable/frameworks_res_ic_delete</item>
+
+    <item name="drawable/ic_dialog_alert">@drawable/frameworks_res_ic_dialog_alert</item>
+    <item name="drawable/ic_dialog_dialer">@drawable/frameworks_res_ic_dialog_dialer</item>
+    <item name="drawable/ic_dialog_email">@drawable/frameworks_res_ic_dialog_email</item>
+    <item name="drawable/ic_dialog_info">@drawable/frameworks_res_ic_dialog_info</item>
+    <item name="drawable/ic_dialog_map">@drawable/frameworks_res_ic_dialog_map</item>
+    <item name="drawable/ic_dialog_time">@drawable/frameworks_res_ic_dialog_time</item>
+    <item name="drawable/ic_dialog_usb">@drawable/frameworks_res_ic_dialog_usb</item>
+    <item name="drawable/ic_dialog_emergency">@drawable/frameworks_res_ic_dialog_emergency</item>
+
+    <item name="drawable/ic_input_add">@drawable/frameworks_res_ic_input_add</item>
+    <item name="drawable/ic_input_delete">@drawable/frameworks_res_ic_input_delete</item>
+    <item name="drawable/ic_input_get">@drawable/frameworks_res_ic_input_get</item>
+
+    <item name="drawable/ic_jog_dial_answer">@drawable/frameworks_res_ic_jog_dial_answer</item>
+    <item name="drawable/ic_jog_dial_answer_and_end">@drawable/frameworks_res_ic_jog_dial_answer_and_end</item>
+    <item name="drawable/ic_jog_dial_answer_and_hold">@drawable/frameworks_res_ic_jog_dial_answer_and_hold</item>
+    <item name="drawable/ic_jog_dial_decline">@drawable/frameworks_res_ic_jog_dial_decline</item>
+    <item name="drawable/ic_jog_dial_sound_off">@drawable/frameworks_res_ic_jog_dial_sound_off</item>
+    <item name="drawable/ic_jog_dial_sound_on">@drawable/frameworks_res_ic_jog_dial_sound_on</item>
+    <item name="drawable/ic_jog_dial_unlock">@drawable/frameworks_res_ic_jog_dial_unlock</item>
+    <item name="drawable/ic_jog_dial_vibrate_on">@drawable/frameworks_res_ic_jog_dial_vibrate_on</item>
+
+
+    <item name="drawable/ic_launcher_android">@drawable/frameworks_res_ic_launcher_android</item>
+    <item name="drawable/ic_lock_airplane_mode">@drawable/frameworks_res_ic_lock_airplane_mode</item>
+    <item name="drawable/ic_lock_airplane_mode_off">@drawable/frameworks_res_ic_lock_airplane_mode_off</item>
+    <item name="drawable/ic_lock_idle_alarm">@drawable/frameworks_res_ic_lock_idle_alarm</item>
+    <item name="drawable/ic_lock_idle_charging">@drawable/frameworks_res_ic_lock_idle_charging</item>
+    <item name="drawable/ic_lock_idle_lock">@drawable/frameworks_res_ic_lock_idle_lock</item>
+    <item name="drawable/ic_lock_lock">@drawable/frameworks_res_ic_lock_lock</item>
+    <item name="drawable/ic_lock_power_off">@drawable/frameworks_res_ic_lock_power_off</item>
+    <item name="drawable/ic_lock_profile">@drawable/frameworks_res_ic_lock_profile</item>
+    <item name="drawable/ic_lock_reboot">@drawable/frameworks_res_ic_lock_reboot</item>
+    <item name="drawable/ic_lock_ringer_off">@drawable/frameworks_res_ic_lock_ringer_off</item>
+    <item name="drawable/ic_lock_ringer_on">@drawable/frameworks_res_ic_lock_ringer_on</item>
+    <item name="drawable/ic_lock_screenshot">@drawable/frameworks_res_ic_lock_screenshot</item>
+    <item name="drawable/ic_lock_silent_mode">@drawable/frameworks_res_ic_lock_silent_mode</item>
+    <item name="drawable/ic_lock_silent_mode_off">@drawable/frameworks_res_ic_lock_silent_mode_off</item>
+    <item name="drawable/ic_lock_silent_mode_vibrate">@drawable/frameworks_res_ic_lock_silent_mode_vibrate</item>
+    
+    <item name="drawable/ic_maps_indicator_current_position">@drawable/frameworks_res_ic_maps_indicator_current_position</item>
+    <item name="drawable/ic_maps_indicator_current_position_anim1">@drawable/frameworks_res_ic_maps_indicator_current_position_anim1</item>
+    <item name="drawable/ic_maps_indicator_current_position_anim2">@drawable/frameworks_res_ic_maps_indicator_current_position_anim2</item>
+    <item name="drawable/ic_maps_indicator_current_position_anim3">@drawable/frameworks_res_ic_maps_indicator_current_position_anim3</item>
+
+    <item name="drawable/ic_media_ff">@drawable/frameworks_res_ic_media_ff</item>
+    <item name="drawable/ic_media_next">@drawable/frameworks_res_ic_media_next</item>
+    <item name="drawable/ic_media_pause">@drawable/frameworks_res_ic_media_pause</item>
+    <item name="drawable/ic_media_play">@drawable/frameworks_res_ic_media_play</item>
+    <item name="drawable/ic_media_previous">@drawable/frameworks_res_ic_media_previous</item>
+    <item name="drawable/ic_media_rew">@drawable/frameworks_res_ic_media_rew</item>
+
+    <item name="drawable/ic_menu_account_list">@drawable/frameworks_res_ic_menu_account_list</item>
+    <item name="drawable/ic_menu_add">@drawable/frameworks_res_ic_menu_add</item>
+    <item name="drawable/ic_menu_agenda">@drawable/frameworks_res_ic_menu_agenda</item>
+    <item name="drawable/ic_menu_allfriends">@drawable/frameworks_res_ic_menu_allfriends</item>
+    <item name="drawable/ic_menu_always_landscape_portrait">@drawable/frameworks_res_ic_menu_always_landscape_portrait</item>
+    <item name="drawable/ic_menu_archive">@drawable/frameworks_res_ic_menu_archive</item>
+    <item name="drawable/ic_menu_attachment">@drawable/frameworks_res_ic_menu_attachment</item>
+    <item name="drawable/ic_menu_back">@drawable/frameworks_res_ic_menu_back</item>
+    <item name="drawable/ic_menu_block">@drawable/frameworks_res_ic_menu_block</item>
+    <item name="drawable/ic_menu_blocked_user">@drawable/frameworks_res_ic_menu_blocked_user</item>
+    <item name="drawable/ic_menu_call">@drawable/frameworks_res_ic_menu_call</item>
+    <item name="drawable/ic_menu_camera">@drawable/frameworks_res_ic_menu_camera</item>
+    <item name="drawable/ic_menu_cc">@drawable/frameworks_res_ic_menu_cc</item>
+    <item name="drawable/ic_menu_chat_dashboard">@drawable/frameworks_res_ic_menu_chat_dashboard</item>
+    <item name="drawable/ic_menu_clear_playlist">@drawable/frameworks_res_ic_menu_clear_playlist</item>
+    <item name="drawable/ic_menu_close_clear_cancel">@drawable/frameworks_res_ic_menu_close_clear_cancel</item>
+    <item name="drawable/ic_menu_compass">@drawable/frameworks_res_ic_menu_compass</item>
+    <item name="drawable/ic_menu_compose">@drawable/frameworks_res_ic_menu_compose</item>
+    <item name="drawable/ic_menu_crop">@drawable/frameworks_res_ic_menu_crop</item>
+    <item name="drawable/ic_menu_day">@drawable/frameworks_res_ic_menu_day</item>
+    <item name="drawable/ic_menu_delete">@drawable/frameworks_res_ic_menu_delete</item>
+    <item name="drawable/ic_menu_directions">@drawable/frameworks_res_ic_menu_directions</item>
+    <item name="drawable/ic_menu_edit">@drawable/frameworks_res_ic_menu_edit</item>
+    <item name="drawable/ic_menu_emoticons">@drawable/frameworks_res_ic_menu_emoticons</item>
+    <item name="drawable/ic_menu_end_conversation">@drawable/frameworks_res_ic_menu_end_conversation</item>
+    <item name="drawable/ic_menu_forward">@drawable/frameworks_res_ic_menu_forward</item>
+    <item name="drawable/ic_menu_friendlist">@drawable/frameworks_res_ic_menu_friendlist</item>
+    <item name="drawable/ic_menu_gallery">@drawable/frameworks_res_ic_menu_gallery</item>
+    <item name="drawable/ic_menu_goto">@drawable/frameworks_res_ic_menu_goto</item>
+    <item name="drawable/ic_menu_help">@drawable/frameworks_res_ic_menu_help</item>
+    <item name="drawable/ic_menu_home">@drawable/frameworks_res_ic_menu_home</item>
+    <item name="drawable/ic_menu_info_details">@drawable/frameworks_res_ic_menu_info_details</item>
+    <item name="drawable/ic_menu_invite">@drawable/frameworks_res_ic_menu_invite</item>
+    <item name="drawable/ic_menu_login">@drawable/frameworks_res_ic_menu_login</item>
+    <item name="drawable/ic_menu_manage">@drawable/frameworks_res_ic_menu_manage</item>
+    <item name="drawable/ic_menu_mapmode">@drawable/frameworks_res_ic_menu_mapmode</item>
+    <item name="drawable/ic_menu_mark">@drawable/frameworks_res_ic_menu_mark</item>
+    <item name="drawable/ic_menu_month">@drawable/frameworks_res_ic_menu_month</item>
+    <item name="drawable/ic_menu_more">@drawable/frameworks_res_ic_menu_more</item>
+    <item name="drawable/ic_menu_my_calendar">@drawable/frameworks_res_ic_menu_my_calendar</item>
+    <item name="drawable/ic_menu_mylocation">@drawable/frameworks_res_ic_menu_mylocation</item>
+    <item name="drawable/ic_menu_myplaces">@drawable/frameworks_res_ic_menu_myplaces</item>
+    <item name="drawable/ic_menu_notifications">@drawable/frameworks_res_ic_menu_notifications</item>
+    <item name="drawable/ic_menu_play_clip">@drawable/frameworks_res_ic_menu_play_clip</item>
+    <item name="drawable/ic_menu_preferences">@drawable/frameworks_res_ic_menu_preferences</item>
+    <item name="drawable/ic_menu_recent_history">@drawable/frameworks_res_ic_menu_recent_history</item>
+    <item name="drawable/ic_menu_refresh">@drawable/frameworks_res_ic_menu_refresh</item>
+    <item name="drawable/ic_menu_report_image">@drawable/frameworks_res_ic_menu_report_image</item>
+    <item name="drawable/ic_menu_revert">@drawable/frameworks_res_ic_menu_revert</item>
+    <item name="drawable/ic_menu_rotate">@drawable/frameworks_res_ic_menu_rotate</item>
+    <item name="drawable/ic_menu_save">@drawable/frameworks_res_ic_menu_save</item>
+    <item name="drawable/ic_menu_search">@drawable/frameworks_res_ic_menu_search</item>
+    <item name="drawable/ic_menu_send">@drawable/frameworks_res_ic_menu_send</item>
+    <item name="drawable/ic_menu_set">@drawable/frameworks_res_ic_menu_set</item>    
+    <item name="drawable/ic_menu_share">@drawable/frameworks_res_ic_menu_share</item>
+    <item name="drawable/ic_menu_slideshow">@drawable/frameworks_res_ic_menu_slideshow</item>
+    <item name="drawable/ic_menu_sort_alphabetically">@drawable/frameworks_res_ic_menu_sort_alphabetically</item>
+    <item name="drawable/ic_menu_sort_by_size">@drawable/frameworks_res_ic_menu_sort_by_size</item>
+    <item name="drawable/ic_menu_star">@drawable/frameworks_res_ic_menu_star</item>
+    <item name="drawable/ic_menu_start_conversation">@drawable/frameworks_res_ic_menu_start_conversation</item>
+    <item name="drawable/ic_menu_stop">@drawable/frameworks_res_ic_menu_stop</item>
+    <item name="drawable/ic_menu_today">@drawable/frameworks_res_ic_menu_today</item>
+    <item name="drawable/ic_menu_upload">@drawable/frameworks_res_ic_menu_upload</item>
+    <item name="drawable/ic_menu_upload_you_tube">@drawable/frameworks_res_ic_menu_upload_you_tube</item>
+    <item name="drawable/ic_menu_week">@drawable/frameworks_res_ic_menu_week</item>
+    <item name="drawable/ic_menu_view">@drawable/frameworks_res_ic_menu_view</item>
+    <item name="drawable/ic_menu_zoom">@drawable/frameworks_res_ic_menu_zoom</item>
+    <item name="drawable/ic_menu_notfication_clear_all">@drawable/frameworks_res_ic_menu_notification_clear_all</item>
+
+    <item name="drawable/ic_notification_overlay">@drawable/frameworks_res_ic_menu_notification_overlay</item>
+    <item name="drawable/icon_highlight_rectangle">@drawable/frameworks_res_icon_highlight_rectangle</item>
+    <item name="drawable/icon_highlight_square">@drawable/frameworks_res_icon_highlight_square</item>
+
+    <item name="drawable/ic_partical_secure">@drawable/frameworks_res_ic_partical_secure</item>
+    <item name="drawable/ic_popup_disk_full">@drawable/frameworks_res_ic_popup_disk_full</item>
+    <item name="drawable/ic_popup_reminder">@drawable/frameworks_res_ic_popup_reminder</item>
+    <item name="drawable/ic_popup_sync_1">@drawable/frameworks_res_ic_popup_sync_1</item>
+    <item name="drawable/ic_popup_sync_2">@drawable/frameworks_res_ic_popup_sync_2</item>
+    <item name="drawable/ic_popup_sync_3">@drawable/frameworks_res_ic_popup_sync_3</item>
+    <item name="drawable/ic_popup_sync_4">@drawable/frameworks_res_ic_popup_sync_4</item>
+    <item name="drawable/ic_popup_sync_5">@drawable/frameworks_res_ic_popup_sync_5</item>
+    <item name="drawable/ic_popup_sync_6">@drawable/frameworks_res_ic_popup_sync_6</item>
+    <item name="drawable/ic_search_category_deafult">@drawable/frameworks_res_ic_search_category_default</item>
+    <item name="drawable/ic_secure">@drawable/frameworks_res_ic_secure</item>
+    <item name="drawable/ic_text_dot">@drawable/frameworks_res_ic_text_dot</item>
+    <item name="drawable/ic_vibrate">@drawable/frameworks_res_ic_vibrate</item>
+    <item name="drawable/ic_vibrate_small">@drawable/frameworks_res_ic_vibrate_small</item>
+    <item name="drawable/ic_volume">@drawable/frameworks_res_ic_volume</item>
+    <item name="drawable/ic_volume_bluetooth_ad2p">@drawable/frameworks_res_ic_volume_bluetooth_ad2p</item>
+    <item name="drawable/ic_volume_bluetooth_in_call">@drawable/frameworks_res_ic_volume_bluetooth_in_call</item>   
+    <item name="drawable/ic_volume_off">@drawable/frameworks_res_ic_volume_off</item>
+    <item name="drawable/ic_volume_off_small">@drawable/frameworks_res_ic_volume_off_small</item>
+    <item name="drawable/ic_volume_small">@drawable/frameworks_res_ic_volume_small</item>
+
+    <item name="drawable/ime_qwerty">@drawable/frameworks_res_ime_qwerty</item>
+    <item name="drawable/indicator_code_lock_drag_direction_green_up">@drawable/frameworks_res_indicator_code_lock_drag_direction_green_up</item>
+    <item name="drawable/indicator_code_lock_drag_direction_red_up">@drawable/frameworks_res_indicator_code_lock_drag_direction_red_up</item>
+    <item name="drawable/indicator_code_lock_point_area_default">@drawable/frameworks_res_indicator_code_lock_point_area_default</item>
+    <item name="drawable/indicator_code_lock_point_area_green">@drawable/frameworks_res_indicator_code_lock_point_area_green</item>
+    <item name="drawable/indicator_code_lock_point_area_red">@drawable/frameworks_res_indicator_code_lock_point_area_red</item>
+    <item name="drawable/indicator_input_error">@drawable/frameworks_res_indicator_input_error</item>
+
+    <item name="drawable/jog_dial_arrow_long_left_green">@drawable/frameworks_res_jog_dial_arrow_long_left_green</item>
+    <item name="drawable/jog_dial_arrow_long_left_yellow">@drawable/frameworks_res_jog_dial_arrow_long_left_yellow</item>
+    <item name="drawable/jog_dial_arrow_long_middle_yellow">@drawable/frameworks_res_jog_dial_arrow_long_middle_yellow</item>
+    <item name="drawable/jog_dial_arrow_long_right_red">@drawable/frameworks_res_jog_dial_arrow_long_right_red</item>
+    <item name="drawable/jog_dial_arrow_long_right_yellow">@drawable/frameworks_res_jog_dial_arrow_long_right_yellow</item>
+    <item name="drawable/jog_dial_arrow_short_left">@drawable/frameworks_res_jog_dial_arrow_short_left</item>
+    <item name="drawable/jog_dial_arrow_short_left_and_right">@drawable/frameworks_res_jog_dial_arrow_short_left_and_right</item>
+    <item name="drawable/jog_dial_arrow_short_right">@drawable/frameworks_res_jog_dial_arrow_short_right</item>
+    <item name="drawable/jog_dial_bg">@drawable/frameworks_res_jog_dial_bg</item>
+    <item name="drawable/jog_dial_bg_rev">@drawable/frameworks_res_jog_dial_bg_rev</item>
+    <item name="drawable/jog_dial_bg_rev_down">@drawable/frameworks_res_jog_dial_bg_rev_down</item>
+    <item name="drawable/jog_dial_dimple">@drawable/frameworks_res_jog_dial_dimple</item>
+    <item name="drawable/jog_dial_dimple_dim">@drawable/frameworks_res_jog_dial_dimple_dim</item>
+
+    <item name="drawable/keyboard_accessory_bg_landscape">@drawable/frameworks_res_keyboard_accessory_bg_landscape</item>
+    <item name="drawable/keyboard_background">@drawable/frameworks_res_keyboard_background</item>
+    <item name="drawable/keyboard_key_feedback_background">@drawable/frameworks_res_keyboard_key_feedback_background</item>
+    <item name="drawable/keyboard_key_feedback_more_background">@drawable/frameworks_res_keyboard_key_feedback_more_background</item>
+    <item name="drawable/keyboard_popup_panel_background">@drawable/frameworks_res_keyboard_popup_panel_background</item>
+    <item name="drawable/keyboard_popup_panel_trans_background">@drawable/frameworks_res_keyboard_popup_panel_trans_background</item>
+    <item name="drawable/keyboard_textfield_selected">@drawable/frameworks_res_keyboard_textfield_selected</item>
+
+
+    <item name="drawable/light_header">@drawable/frameworks_res_light_header</item>
+    <item name="drawable/lense_square_bg">@drawable/lense_square_bg</item>
+    <item name="drawable/list_selector_background_disabled">@drawable/frameworks_res_list_selector_background_disabled</item>
+    <item name="drawable/list_selector_background_focus">@drawable/frameworks_res_list_selector_background_focus</item>
+    <item name="drawable/list_selector_background_longpress">@drawable/frameworks_res_list_selector_background_longpress</item>
+    <item name="drawable/list_selector_background_pressed">@drawable/frameworks_res_list_selector_background_pressed</item>
+
+    <item name="drawable/menuitem_background_focus">@drawable/frameworks_res_menuitem_background_focus</item>
+    <item name="drawable/menuitem_background_pressed">@drawable/frameworks_res_menuitem_background_pressed</item>
+    <item name="drawable/menuitem_background_solid_focused">@drawable/frameworks_res_menuitem_background_solid_focused</item>
+    <item name="drawable/menuitem_background_solid_pressed">@drawable/frameworks_res_menuitem_background_solid_pressed</item>
+    <item name="drawable/menuitem_checkbox_on">@drawable/frameworks_res_menuitem_checkbox_on</item>
+    <item name="drawable/menu_separator">@drawable/frameworks_res_menu_separator</item>
+    <item name="drawable/menu_submenu_background">@drawable/frameworks_res_menu_submenu_background</item>
+
+    <item name="drawable/overscroll_edge">@drawable/frameworks_res_overscroll_edge</item>
+    <item name="drawable/overscroll_glow">@drawable/frameworks_res_overscroll_glow</item>
+
+    <item name="drawable/panel_background">@drawable/frameworks_res_panel_background</item>
+    <item name="drawable/panel_picture_frame_bg_focus_blue">@drawable/frameworks_res_panel_picture_frame_bg_focus_blue</item>
+    <item name="drawable/panel_picture_frame_bg_normal">@drawable/frameworks_res_panel_picture_frame_bg_normal</item>
+    <item name="drawable/panel_picture_frame_bg_pressed_blue">@drawable/frameworks_res_panel_picture_frame_bg_pressed_blue</item>
+    <item name="drawable/password_field_default">@drawable/frameworks_res_password_field_default</item>
+    <item name="drawable/picture_emergency">@drawable/frameworks_res_picture_emergency</item>
+    <item name="drawable/picture_frame">@drawable/frameworks_res_picture_frame</item>
+
+    <item name="drawable/popup_bottom_bright">@drawable/frameworks_res_popup_bottom_bright</item>
+    <item name="drawable/popup_bottom_dark">@drawable/frameworks_res_popup_bottom_dark</item>
+    <item name="drawable/popup_bottom_medium">@drawable/frameworks_res_popup_bottom_medium</item>
+    <item name="drawable/popup_center_bright">@drawable/frameworks_res_popup_center_bright</item>
+    <item name="drawable/popup_center_dark">@drawable/frameworks_res_popup_center_dark</item>
+    <item name="drawable/popup_center_medium">@drawable/frameworks_res_popup_center_medium</item>
+    <item name="drawable/popup_full_bright">@drawable/frameworks_res_popup_full_bright</item>
+    <item name="drawable/popup_full_dark">@drawable/frameworks_res_popup_full_dark</item>
+    <item name="drawable/popup_inline_error">@drawable/frameworks_res_popup_inline_error</item>
+    <item name="drawable/popup_inline_error_above">@drawable/frameworks_res_popup_inline_error_above</item>
+    <item name="drawable/popup_top_bright">@drawable/frameworks_res_popup_top_bright</item>
+    <item name="drawable/popup_top_dark">@drawable/frameworks_res_popup_top_dark</item>
+
+    <item name="drawable/presence_audio_away">@drawable/frameworks_res_presence_audio_away</item>
+    <item name="drawable/presence_audio_busy">@drawable/frameworks_res_presence_audio_busy</item>
+    <item name="drawable/presence_audio_online">@drawable/frameworks_res_presence_audio_online</item>
+    <item name="drawable/presence_away">@drawable/frameworks_res_presence_away</item>
+    <item name="drawable/presence_busy">@drawable/frameworks_res_presence_busy</item>
+    <item name="drawable/presence_invisible">@drawable/frameworks_res_presence_invisible</item>
+    <item name="drawable/presence_offline">@drawable/frameworks_res_presence_offline</item>
+    <item name="drawable/presence_online">@drawable/frameworks_res_presence_online</item>
+    <item name="drawable/presence_video_away">@drawable/frameworks_res_presence_video_away</item>
+    <item name="drawable/presence_video_busy">@drawable/frameworks_res_presence_video_busy</item>
+    <item name="drawable/presence_video_online">@drawable/frameworks_res_presence_video_online</item>
+
+    <item name="drawable/pressed_application_background_static">@drawable/frameworks_res_pressed_application_background_static</item>
+    <item name="drawable/progressbar_indeterminate1">@drawable/frameworks_res_progressbar_indeterminate1</item>
+    <item name="drawable/progressbar_indeterminate2">@drawable/frameworks_res_progressbar_indeterminate2</item>
+    <item name="drawable/progressbar_indeterminate3">@drawable/frameworks_res_progressbar_indeterminate3</item>
+
+    <item name="drawable/progress_horizontal">@drawable/frameworks_res_progress_horizontal</item>
+
+    <item name="drawable/quickcontact_badge_pressed">@drawable/frameworks_res_quickcontact_badge_pressed</item>
+    <item name="drawable/quickcontact_badge_small_pressed">@drawable/frameworks_res_quickcontact_badge_small_pressed</item>
+    <item name="drawable/quickcontact_badge_small_unpressed">@drawable/frameworks_res_quickcontact_badge_small_unpressed</item>
+    <item name="drawable/quickcontact_badge_unpressed">@drawable/frameworks_res_quickcontact_badge_unpressed</item>
+    <item name="drawable/quickcontact_nobadge_highlight">@drawable/frameworks_res_quickcontact_nobadge_highlight</item>
+    <item name="drawable/quickcontact_nobadge_normal">@drawable/frameworks_res_quickcontact_nobadge_normal</item>
+    <item name="drawable/quickcontact_nobadge_pressed">@drawable/frameworks_res_quickcontact_nobadge_pressed</item>
+
+    <item name="drawable/radiobutton_off_background">@drawable/frameworks_res_radiobutton_off_background</item>
+    <item name="drawable/radiobutton_on_background">@drawable/frameworks_res_radiobutton_on_background</item>
+
+    <item name="drawable/rate_star_big_half">@drawable/frameworks_res_rate_star_big_half</item>
+    <item name="drawable/rate_star_big_on">@drawable/frameworks_res_rate_star_big_on</item>
+    <item name="drawable/rate_star_big_off">@drawable/frameworks_res_rate_star_big_off</item>
+    <item name="drawable/rate_star_med_half">@drawable/frameworks_res_rate_star_med_half</item>
+    <item name="drawable/rate_star_med_off">@drawable/frameworks_res_rate_star_med_off</item>
+    <item name="drawable/rate_star_med_on">@drawable/frameworks_res_rate_star_med_on</item>
+    <item name="drawable/rate_star_small_half">@drawable/frameworks_res_rate_star_small_half</item>
+    <item name="drawable/rate_star_small_off">@drawable/frameworks_res_rate_star_small_off</item>
+    <item name="drawable/rate_star_small_on">@drawable/frameworks_res_rate_star_small_on</item>
+
+    <item name="drawable/reticle">@drawable/frameworks_res_reticle</item>
+    <item name="drawable/scrollbar_handle_accelerated_anim2">@drawable/frameworks_res_scrollbar_handle_accelerated_anim2</item>
+    <item name="drawable/scrollbar_handle_horizontal">@drawable/frameworks_res_scrollbar_handle_horizontal</item>
+    <item name="drawable/scrollbar_handle_vertical">@drawable/frameworks_res_scrollbar_handle_vertical</item>
+
+    <item name="drawable/search_dropdown">@drawable/frameworks_res_search_dropdown</item>
+    <item name="drawable/search_plate">@drawable/frameworks_res_search_plate</item>
+    <item name="drawable/search_plate_global">@drawable/frameworks_res_search_plate_global</item>
+
+    <item name="drawable/seek_thumb_normal">@drawable/frameworks_res_seek_thumb_normal</item>
+    <item name="drawable/seek_thumb_pressed">@drawable/frameworks_res_seek_thumb_pressed</item>
+    <item name="drawable/seek_thumb_selected">@drawable/frameworks_res_seek_thumb_selected</item>
+
+    <item name="drawable/spinner_black_16">@drawable/frameworks_res_spinner_black_16</item>
+    <item name="drawable/spinner_black_20">@drawable/frameworks_res_spinner_black_20</item>
+    <item name="drawable/spinner_black_48">@drawable/frameworks_res_spinner_black_48</item>
+    <item name="drawable/spinner_black_76">@drawable/frameworks_res_spinner_black_76</item>
+
+    <item name="drawable/spinner_dropdown_background_down">@drawable/frameworks_res_spinner_dropdown_background_down</item>
+    <item name="drawable/spinner_dropdown_background_up">@drawable/frameworks_res_spinner_dropdown_background_up</item>
+    <item name="drawable/spinner_normal">@drawable/frameworks_res_spinner_normal</item>
+    <item name="drawable/spinner_press">@drawable/frameworks_res_spinner_press</item>
+    <item name="drawable/spinner_select">@drawable/frameworks_res_spinner_select</item>
+
+    <item name="drawable/spinner_white_16">@drawable/frameworks_res_spinner_white_16</item>
+    <item name="drawable/spinner_white_48">@drawable/frameworks_res_spinner_white_48</item>
+    <item name="drawable/spinner_white_76">@drawable/frameworks_res_spinner_white_76</item>
+
+    <item name="drawable/star_big_off">@drawable/frameworks_res_star_big_off</item>
+    <item name="drawable/star_big_on">@drawable/frameworks_res_star_big_on</item>
+    <item name="drawable/star_off">@drawable/frameworks_res_star_off</item>
+    <item name="drawable/star_on">@drawable/frameworks_res_star_on</item>
+    
+    <item name="drawable/stat_ecb_mode">@drawable/frameworks_res_stat_ecb_mode</item>
+    <item name="drawable/stat_notify_call_mute">@drawable/frameworks_res_stat_notify_call_mute</item>
+    <item name="drawable/stat_notify_car_mode">@drawable/frameworks_res_stat_notify_car_mode</item>
+    <item name="drawable/stat_notify_chat">@drawable/frameworks_res_stat_notify_chat</item>
+    <item name="drawable/stat_notify_disk_full">@drawable/frameworks_res_stat_notify_disk_full</item>
+    <item name="drawable/stat_notify_email_generic">@drawable/frameworks_res_stat_notify_email_generic</item>
+    <item name="drawable/stat_notify_error">@drawable/frameworks_res_stat_notify_error</item>
+    <item name="drawable/stat_notify_gmail">@drawable/frameworks_res_stat_notify_gmail</item>
+    <item name="drawable/stat_notify_missed_call">@drawable/frameworks_res_stat_notify_missed_call</item>
+    <item name="drawable/stat_notify_more">@drawable/frameworks_res_stat_notify_more</item>
+    <item name="drawable/stat_notify_sdcard">@drawable/frameworks_res_stat_notify_sdcard</item>
+    <item name="drawable/stat_notify_sdcard_prepare">@drawable/frameworks_res_stat_notify_sdcard_prepare</item>
+    <item name="drawable/stat_notify_sdcard_usb">@drawable/frameworks_res_stat_notify_sdcard_usb</item>
+    <item name="drawable/stat_notify_sim_toolkit">@drawable/frameworks_res_stat_notify_sim_toolkit</item>
+    <item name="drawable/stat_notify_sync_anim0">@drawable/frameworks_res_stat_notify_sync_anim0</item>
+    <item name="drawable/stat_notify_sync">@drawable/frameworks_res_stat_notify_sync</item>
+    <item name="drawable/stat_notify_sync_error">@drawable/frameworks_res_stat_notify_sync_error</item>
+    <item name="drawable/stat_notify_wifi_in_range">@drawable/frameworks_res_stat_notify_wifi_in_range</item>
+    <item name="drawable/stat_notify_voicemail">@drawable/frameworks_res_stat_notify_voicemail</item>
+
+    <item name="drawable/stat_sys_adb">@drawable/frameworks_res_stat_sys_adb</item>
+
+    <item name="drawable/stat_sys_battery_0">@drawable/frameworks_res_stat_sys_battery_0</item>
+    <item name="drawable/stat_sys_battery_100">@drawable/frameworks_res_stat_sys_battery_100</item>
+    <item name="drawable/stat_sys_battery_10">@drawable/frameworks_res_stat_sys_battery_10</item>
+    <item name="drawable/stat_sys_battery_15">@drawable/frameworks_res_stat_sys_battery_15</item>
+    <item name="drawable/stat_sys_battery_20">@drawable/frameworks_res_stat_sys_battery_20</item>
+    <item name="drawable/stat_sys_battery_25">@drawable/frameworks_res_stat_sys_battery_25</item>
+    <item name="drawable/stat_sys_battery_30">@drawable/frameworks_res_stat_sys_battery_30</item>
+    <item name="drawable/stat_sys_battery_35">@drawable/frameworks_res_stat_sys_battery_35</item>
+    <item name="drawable/stat_sys_battery_40">@drawable/frameworks_res_stat_sys_battery_40</item>
+    <item name="drawable/stat_sys_battery_45">@drawable/frameworks_res_stat_sys_battery_45</item>
+    <item name="drawable/stat_sys_battery_50">@drawable/frameworks_res_stat_sys_battery_50</item>
+    <item name="drawable/stat_sys_battery_55">@drawable/frameworks_res_stat_sys_battery_55</item>
+    <item name="drawable/stat_sys_battery_5">@drawable/frameworks_res_stat_sys_battery_5</item>
+    <item name="drawable/stat_sys_battery_60">@drawable/frameworks_res_stat_sys_battery_60</item>
+    <item name="drawable/stat_sys_battery_65">@drawable/frameworks_res_stat_sys_battery_65</item>
+    <item name="drawable/stat_sys_battery_70">@drawable/frameworks_res_stat_sys_battery_70</item>
+    <item name="drawable/stat_sys_battery_75">@drawable/frameworks_res_stat_sys_battery_75</item>
+    <item name="drawable/stat_sys_battery_80">@drawable/frameworks_res_stat_sys_battery_80</item>
+    <item name="drawable/stat_sys_battery_85">@drawable/frameworks_res_stat_sys_battery_85</item>
+    <item name="drawable/stat_sys_battery_90">@drawable/frameworks_res_stat_sys_battery_90</item>
+    <item name="drawable/stat_sys_battery_95">@drawable/frameworks_res_stat_sys_battery_95</item>
+    <item name="drawable/stat_sys_battery_charge_anim0">@drawable/frameworks_res_stat_sys_battery_charge_anim0</item>
+    <item name="drawable/stat_sys_battery_charge_anim1">@drawable/frameworks_res_stat_sys_battery_charge_anim1</item>
+    <item name="drawable/stat_sys_battery_charge_anim2">@drawable/frameworks_res_stat_sys_battery_charge_anim2</item>
+    <item name="drawable/stat_sys_battery_charge_anim3">@drawable/frameworks_res_stat_sys_battery_charge_anim3</item>
+    <item name="drawable/stat_sys_battery_charge_anim4">@drawable/frameworks_res_stat_sys_battery_charge_anim4</item>
+    <item name="drawable/stat_sys_battery_charge_anim5">@drawable/frameworks_res_stat_sys_battery_charge_anim5</item>
+    <item name="drawable/stat_sys_battery_unknown">@drawable/frameworks_res_stat_sys_battery_unknown</item>
+
+    <item name="drawable/stat_sys_data_bluetooth">@drawable/frameworks_res_stat_sys_data_bluetooth</item>
+    <item name="drawable/stat_sys_data_usb">@drawable/frameworks_res_stat_sys_data_usb</item>
+
+    <item name="drawable/stat_sys_download_anim0">@drawable/frameworks_res_stat_sys_download_anim0</item>
+    <item name="drawable/stat_sys_download_anim1">@drawable/frameworks_res_stat_sys_download_anim1</item>
+    <item name="drawable/stat_sys_download_anim2">@drawable/frameworks_res_stat_sys_download_anim2</item>
+    <item name="drawable/stat_sys_download_anim3">@drawable/frameworks_res_stat_sys_download_anim3</item>
+    <item name="drawable/stat_sys_download_anim4">@drawable/frameworks_res_stat_sys_download_anim4</item>
+    <item name="drawable/stat_sys_download_anim5">@drawable/frameworks_res_stat_sys_download_anim5</item>
+
+    <item name="drawable/stat_sys_gps_on">@drawable/frameworks_res_stat_sys_gps_on</item>
+    <item name="drawable/stat_sys_headset">@drawable/frameworks_res_stat_sys_headset</item>
+    <item name="drawable/stat_sys_phone_call">@drawable/frameworks_res_stat_sys_phone_call</item>
+    <item name="drawable/stat_sys_phone_call_forward">@drawable/frameworks_res_stat_sys_phone_call_forward</item>
+    <item name="drawable/stat_sys_phone_call_hold">@drawable/frameworks_res_stat_sys_phone_call_hold</item>
+
+    <item name="drawable/stat_sys_ra_signal_0_cdma">@drawable/frameworks_res_stat_sys_ra_signal_0_cdma</item>
+    <item name="drawable/stat_sys_ra_signal_1_cdma">@drawable/frameworks_res_stat_sys_ra_signal_1_cdma</item>
+    <item name="drawable/stat_sys_ra_signal_2_cdma">@drawable/frameworks_res_stat_sys_ra_signal_2_cdma</item>
+    <item name="drawable/stat_sys_ra_signal_3_cdma">@drawable/frameworks_res_stat_sys_ra_signal_3_cdma</item>
+    <item name="drawable/stat_sys_ra_signal_4_cdma">@drawable/frameworks_res_stat_sys_ra_signal_4_cdma</item>
+    <item name="drawable/stat_sys_r_signal_0_cdma">@drawable/frameworks_res_stat_sys_r_signal_0_cdma</item>
+    <item name="drawable/stat_sys_r_signal_1_cdma">@drawable/frameworks_res_stat_sys_r_signal_1_cdma</item>
+    <item name="drawable/stat_sys_r_signal_2_cdma">@drawable/frameworks_res_stat_sys_r_signal_2_cdma</item>
+    <item name="drawable/stat_sys_r_signal_3_cdma">@drawable/frameworks_res_stat_sys_r_signal_3_cdma</item>
+    <item name="drawable/stat_sys_r_signal_4_cdma">@drawable/frameworks_res_stat_sys_r_signal_4_cdma</item>
+
+    <item name="drawable/stat_sys_secure">@drawable/frameworks_res_stat_secure</item>
+  
+    <item name="drawable/stat_sys_signal_0_cdma">@drawable/frameworks_res_stat_sys_signal_0_cdma</item>
+    <item name="drawable/stat_sys_signal_1_cdma">@drawable/frameworks_res_stat_sys_signal_1_cdma</item>
+    <item name="drawable/stat_sys_signal_2_cdma">@drawable/frameworks_res_stat_sys_signal_2_cdma</item>
+    <item name="drawable/stat_sys_signal_3_cdma">@drawable/frameworks_res_stat_sys_signal_3_cdma</item>
+    <item name="drawable/stat_sys_signal_4_cdma">@drawable/frameworks_res_stat_sys_signal_4_cdma</item>
+
+    <item name="drawable/stat_sys_signal_evdo_0">@drawable/frameworks_res_stat_sys_signal_evdo_0</item>
+    <item name="drawable/stat_sys_signal_evdo_1">@drawable/frameworks_res_stat_sys_signal_evdo_1</item>
+    <item name="drawable/stat_sys_signal_evdo_2">@drawable/frameworks_res_stat_sys_signal_evdo_2</item>
+    <item name="drawable/stat_sys_signal_evdo_3">@drawable/frameworks_res_stat_sys_signal_evdo_3</item>
+    <item name="drawable/stat_sys_signal_evdo_4">@drawable/frameworks_res_stat_sys_signal_evdo_4</item>
+
+    <item name="drawable/stat_sys_speakerphone">@drawable/frameworks_res_stat_sys_speakerphone</item>
+
+    <item name="drawable/stat_sys_tether_bluetooth">@drawable/frameworks_res_stat_sys_tether_bluetooth</item>
+    <item name="drawable/stat_sys_tether_general">@drawable/frameworks_res_stat_sys_tether_general</item>
+    <item name="drawable/stat_sys_tether_usb">@drawable/frameworks_res_stat_sys_tether_usb</item>
+    <item name="drawable/stat_sys_tether_wifi">@drawable/frameworks_res_stat_sys_tether_wifi</item>
+
+    <item name="drawable/stat_sys_upload_anim0">@drawable/frameworks_res_stat_sys_upload_anim0</item>
+    <item name="drawable/stat_sys_upload_anim1">@drawable/frameworks_res_stat_sys_upload_anim1</item>
+    <item name="drawable/stat_sys_upload_anim2">@drawable/frameworks_res_stat_sys_upload_anim2</item>
+    <item name="drawable/stat_sys_upload_anim3">@drawable/frameworks_res_stat_sys_upload_anim3</item>
+    <item name="drawable/stat_sys_upload_anim4">@drawable/frameworks_res_stat_sys_upload_anim4</item>
+    <item name="drawable/stat_sys_upload_anim5">@drawable/frameworks_res_stat_sys_upload_anim5</item>
+
+    <item name="drawable/stat_sys_warning">@drawable/frameworks_res_stat_sys_warning</item>
+    <item name="drawable/stat_sys_vp_phone_call">@drawable/frameworks_res_stat_sys_vp_phone_call</item>
+    <item name="drawable/stat_sys_vp_phone_call_on_hold">@drawable/frameworks_res_stat_sys_vp_phone_call_on_hold</item>
+
+    <item name="drawable/status_bar_background">@drawable/frameworks_res_status_bar_background</item>
+    <item name="drawable/status_bar_header_background">@drawable/frameworks_res_status_bar_header_background</item>
+    <item name="drawable/status_bar_item_app_background_normal">@drawable/frameworks_res_status_bar_item_app_background_normal</item>
+    <item name="drawable/status_bar_item_background_focus">@drawable/frameworks_res_status_bar_item_background_focus</item>
+    <item name="drawable/status_bar_item_background_normal">@drawable/frameworks_res_status_bar_item_background_normal</item>
+    <item name="drawable/status_bar_item_background_pressed">@drawable/frameworks_res_status_bar_item_background_pressed</item>
+
+    <item name="drawable/submenu_arrow_nofocus">@drawable/frameworks_res_submenu_arrow_nofocus</item>
+    <item name="drawable/sym_action_add">@drawable/frameworks_res_sym_action_add</item>
+    <item name="drawable/sym_action_call">@drawable/frameworks_res_sym_action_call</item>
+    <item name="drawable/sym_action_chat">@drawable/frameworks_res_sym_action_chat</item>
+    <item name="drawable/sym_action_email">@drawable/frameworks_res_sym_action_email</item>
+    <item name="drawable/sym_app_on_sd_unavailable_icon">@drawable/frameworks_res_sym_app_on_sd_unavailable_icon</item>
+    <item name="drawable/sym_call_incoming">@drawable/frameworks_res_sym_call_incoming</item>
+    <item name="drawable/sym_call_missed">@drawable/frameworks_res_sym_call_missed</item>
+    <item name="drawable/sym_call_outgoing">@drawable/frameworks_res_sym_call_outgoing</item>
+    <item name="drawable/sym_contact_card">@drawable/frameworks_res_sym_contact_card</item>
+    <item name="drawable/sym_def_app_icon">@drawable/frameworks_res_sym_def_app_icon</item>
+
+    <item name="drawable/sym_keyboard_delete">@drawable/frameworks_res_sym_keyboard_delete</item>
+    <item name="drawable/sym_keyboard_delete_dim">@drawable/frameworks_res_sym_keyboard_delete_dim</item>
+    <item name="drawable/sym_keyboard_feedback_delete">@drawable/frameworks_res_sym_keyboard_feedback_delete</item>
+    <item name="drawable/sym_keyboard_feedback_ok">@drawable/frameworks_res_sym_keyboard_feedback_ok</item>
+    <item name="drawable/sym_keyboard_feedback_return">@drawable/frameworks_res_sym_keyboard_feedback_return</item>
+    <item name="drawable/sym_keyboard_feedback_shift">@drawable/frameworks_res_sym_keyboard_feedback_shift</item>
+    <item name="drawable/sym_keyboard_feedback_shift_locked">@drawable/frameworks_res_sym_keyboard_feedback_shift_locked</item>
+    <item name="drawable/sym_keyboard_feedback_space">@drawable/frameworks_res_sym_keyboard_feedback_space</item>
+
+    <item name="drawable/sym_keyboard_num0_no_plus">@drawable/frameworks_res_sym_keyboard_num0_no_plus</item>
+    <item name="drawable/sym_keyboard_num1">@drawable/frameworks_res_sym_keyboard_num1</item>
+    <item name="drawable/sym_keyboard_num2">@drawable/frameworks_res_sym_keyboard_num2</item>
+    <item name="drawable/sym_keyboard_num3">@drawable/frameworks_res_sym_keyboard_num3</item>
+    <item name="drawable/sym_keyboard_num4">@drawable/frameworks_res_sym_keyboard_num4</item>
+    <item name="drawable/sym_keyboard_num5">@drawable/frameworks_res_sym_keyboard_num5</item>
+    <item name="drawable/sym_keyboard_num6">@drawable/frameworks_res_sym_keyboard_num6</item>
+    <item name="drawable/sym_keyboard_num7">@drawable/frameworks_res_sym_keyboard_num7</item>
+    <item name="drawable/sym_keyboard_num8">@drawable/frameworks_res_sym_keyboard_num8</item>
+    <item name="drawable/sym_keyboard_num9">@drawable/frameworks_res_sym_keyboard_num9</item>
+
+    <item name="drawable/sym_keyboard_ok">@drawable/frameworks_res_sym_keyboard_ok</item>
+    <item name="drawable/sym_keyboard_ok_dim">@drawable/frameworks_res_sym_keyboard_ok_dim</item>
+    <item name="drawable/sym_keyboard_return">@drawable/frameworks_res_sym_keyboard_return</item>
+    <item name="drawable/sym_keyboard_shift">@drawable/frameworks_res_sym_keyboard_shift</item>
+    <item name="drawable/sym_keyboard_shift_locked">@drawable/frameworks_res_sym_keyboard_shift_locked</item>
+    <item name="drawable/sym_keyboard_space">@drawable/frameworks_res_sym_keyboard_space</item>
+
+    <item name="drawable/tab_focus">@drawable/frameworks_res_tab_focus</item>
+    <item name="drawable/tab_focus_bar_left">@drawable/frameworks_res_tab_focus_bar_left</item>
+    <item name="drawable/tab_focus_bar_right">@drawable/frameworks_res_tab_focus_bar_right</item>
+    <item name="drawable/tab_press">@drawable/frameworks_res_tab_press</item>
+    <item name="drawable/tab_press_bar_left">@drawable/frameworks_res_tab_press_bar_left</item>
+    <item name="drawable/tab_press_bar_right">@drawable/frameworks_res_tab_press_bar_right</item>
+    <item name="drawable/tab_selected">@drawable/frameworks_res_tab_selected</item>
+    <item name="drawable/tab_selected_bar_left">@drawable/frameworks_res_tab_selected_bar_left</item>
+    <item name="drawable/tab_selected_bar_left_v4">@drawable/frameworks_res_tab_selected_bar_left_v4</item>
+    <item name="drawable/tab_selected_bar_right">@drawable/frameworks_res_tab_selected_bar_right</item>
+    <item name="drawable/tab_selected_bar_right_v4">@drawable/frameworks_res_tab_selected_bar_right_v4</item>
+    <item name="drawable/tab_selected_v4">@drawable/frameworks_res_tab_selected_v4</item>
+    <item name="drawable/tab_unselected">@drawable/frameworks_res_tab_unselected</item>
+    <item name="drawable/tab_unselected_v4">@drawable/frameworks_res_tab_unselected_v4</item>
+
+    <item name="drawable/textfield_default">@drawable/frameworks_res_textfield_default</item>
+    <item name="drawable/textfield_disabled">@drawable/frameworks_res_textfield_disabled</item>
+    <item name="drawable/textfield_disabled_selected">@drawable/frameworks_res_textfield_disabled_selected</item>
+    <item name="drawable/textfield_pressed">@drawable/frameworks_res_textfield_pressed</item>
+    <item name="drawable/textfield_search_default">@drawable/frameworks_res_textfield_search_default</item>
+    <item name="drawable/textfield_search_empty_default">@drawable/frameworks_res_textfield_search_empty_default</item>
+    <item name="drawable/textfield_search_empty_pressed">@drawable/frameworks_res_textfield_search_empty_pressed</item>
+    <item name="drawable/textfield_search_empty_selected">@drawable/frameworks_res_textfield_search_empty_selected</item>
+    <item name="drawable/textfield_search_pressed">@drawable/frameworks_res_textfield_search_pressed</item>
+    <item name="drawable/textfield_search_selected">@drawable/frameworks_res_textfield_search_selected</item>
+    <item name="drawable/textfield_selected">@drawable/frameworks_res_textfield_selected</item>
+
+    <item name="drawable/text_select_handle_left">@drawable/frameworks_res_text_select_handle_left</item>
+    <item name="drawable/text_select_handle_middle">@drawable/frameworks_res_text_select_handle_middle</item>
+    <item name="drawable/text_select_handle_right">@drawable/frameworks_res_text_select_handle_right</item>
+
+    <item name="drawable/timepicker_down_disabled">@drawable/frameworks_res_timepicker_down_disabled</item>
+    <item name="drawable/timepicker_down_disabled_focused">@drawable/frameworks_res_timepicker_down_disabled_focused</item>
+    <item name="drawable/timepicker_down_normal">@drawable/frameworks_res_timepicker_down_normal</item>
+    <item name="drawable/timepicker_down_pressed">@drawable/frameworks_res_timepicker_down_pressed</item>
+    <item name="drawable/timepicker_down_selected">@drawable/frameworks_res_timepicker_down_selected</item>
+
+    <item name="drawable/timepicker_input_disabled">@drawable/frameworks_res_timepicker_input_disabled</item>
+    <item name="drawable/timepicker_input_normal">@drawable/frameworks_res_timepicker_input_normal</item>
+    <item name="drawable/timepicker_input_pressed">@drawable/frameworks_res_timepicker_input_pressed</item>
+    <item name="drawable/timepicker_input_selected">@drawable/frameworks_res_timepicker_input_selected</item>
+
+    <item name="drawable/timepicker_up_disabled">@drawable/frameworks_res_timepicker_up_disabled</item>
+    <item name="drawable/timepicker_up_disabled_focused">@drawable/frameworks_res_timepicker_up_disabled_focused</item>
+    <item name="drawable/timepicker_up_normal">@drawable/frameworks_res_timepicker_up_normal</item>
+    <item name="drawable/timepicker_up_pressed">@drawable/frameworks_res_timepicker_up_pressed</item>
+    <item name="drawable/timepicker_up_selected">@drawable/frameworks_res_timepicker_up_selected</item>
+
+    <item name="drawable/title_bar">@drawable/frameworks_res_title_bar</item>
+    <item name="drawable/title_bar_medium">@drawable/frameworks_res_title_bar_medium</item>
+    <item name="drawable/title_bar_portrait">@drawable/frameworks_res_title_bar</item>
+    <item name="drawable/title_bar_tall">@drawable/frameworks_res_title_bar_tall</item>
+    <item name="drawable/toast_frame">@drawable/frameworks_res_toast_frame</item>
+    <item name="drawable/unknown_image">@drawable/frameworks_res_unknown_image</item>
+    <item name="drawable/zoom_plate">@drawable/frameworks_res_zoom_plate</item>
+    <item name="drawable/usb_android_connected">@drawable/frameworks_res_usb_android_connected</item>
+    <item name="drawable/usb_android">@drawable/frameworks_res_usb_android</item>
+
+</resource-redirections>

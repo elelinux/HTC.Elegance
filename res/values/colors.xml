@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright (C) 2011 Esa Laukkanen <ele.linux@gmail.com>
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources>
+<!-- 
+    <color name="background_dark">#ff000000</color> 
+-->
+    <color name="background_light">#ffffffff</color> 
+
+    <color name="black">#ff000000</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="bright_foreground_dark_inverse">#ff000000</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_inverse">#ffffffff</color>
+    <color name="color_primary_focus">#ff99cc00</color>
+    <color name="color_primary_press">#ffe0f840</color>
+    <color name="config_defaultNotificationColor">#ff00ff00</color>
+    <color name="darker_gray">#ffaaaaaa</color>
+    <color name="dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="dim_foreground_dark">#ffbebebe</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="dim_foreground_dark_inverse">#ff323232</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light">#ff323232</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    <color name="dim_foreground_light_inverse">#ffbebebe</color>
+    <color name="header_background_light1">#ff7a7a7a</color>
+    <color name="header_background_medium1">#ff000000</color>
+    <color name="header_background_medium2">#ff0a0a0a</color>
+    <color name="header_background_medium3">#ff000000</color>
+    <color name="header_background_dark1">#ff808080</color>
+    <color name="header_background_dark2">#ff000000</color>
+    <color name="header_background_highlight1">#ffa6d538</color>
+    <color name="header_background_highlightTransparent1">#00b2ff00</color>
+    <color name="header_background_highlight2">#ff78aa05</color>
+    <color name="header_background_highdark1">#ff969696</color>
+    <color name="header_background_highdarkTransparent1">#00a0a0a0</color>
+    <color name="header_background_highdark2">#ff0a0a0a</color>
+    <color name="hint_foreground_dark">#ff808080</color>
+    <color name="hint_foreground_light">#ff808080</color>
+    <color name="keyguard_text_color_decline">#fffe0a5a</color>
+    <color name="keyguard_text_color_normal">#ffffffff</color>
+    <color name="keyguard_text_color_soundoff">#ffffffff</color>
+    <color name="keyguard_text_color_soundon">#ffe69310</color>
+    <color name="keyguard_text_color_unlock">#ffa7d84c</color>
+    <color name="launcher_glow_focused">#ff2ac32a</color>
+    <color name="launcher_glow_pressed">#ff7ecf34</color>
+    <color name="lighter_gray">#ffdddddd</color>
+    <color name="perms_dangerous_grp_color">#ffdd6826</color>
+    <color name="perms_dangerous_perm_color">#ffdd6826</color>
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="search_url_text_normal">#ff7fa87f</color>
+    <color name="search_url_text_pressed">@color/black</color>
+    <color name="search_url_text_selected">@color/black</color>
+    <color name="search_widget_corpus_item_background">@color/lighter_gray</color>
+    <color name="shadow">#cc222222</color>
+    <color name="sliding_tab_text_color_active">@color/black</color>
+    <color name="sliding_tab_text_color_shadow">@color/black</color>
+    <color name="transparent">#80000000</color>
+    <color name="white">#ffffffff</color>
+
+     <!-- Twitter  -->
+    <color name="text_color">#ffbbbbbb</color>
+    <color name="gray_color">#ff888888</color>
+</resources>
+

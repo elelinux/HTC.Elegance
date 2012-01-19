@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # Copyright (C) 2011 Esa Laukkanen <ele.linux@gmail.com>
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+ # you may not use this file except in compliance with the License.
+ # You may obtain a copy of the License at
+ #
+ #      http://www.apache.org/licenses/LICENSE-2.0
+ #
+ # Unless required by applicable law or agreed to in writing, software
+ # distributed under the License is distributed on an "AS IS" BASIS,
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ -->
+
+<resource-redirections>
+        <item name="drawable/battery_low_battery">@drawable/com_android_systemui_battery_low_battery</item>
+    <item name="drawable/btn_default_small_normal">@drawable/com_android_systemui_btn_default_small_normal</item>
+    <item name="drawable/btn_default_small_pressed">@drawable/com_android_systemui_btn_default_small_pressed</item>
+    <item name="drawable/btn_default_small_selected">@drawable/com_android_systemui_btn_default_small_selected</item>
+    <item name="drawable/shade_bg">@drawable/com_android_systemui_shade_bg</item>    
+    <item name="drawable/stat_inner_focus">@drawable/com_android_systemui_stat_inner_focus</item>
+    <item name="drawable/stat_inner_press">@drawable/com_android_systemui_stat_inner_press</item>
+    <item name="drawable/stat_notify_alarm">@drawable/com_android_systemui_stat_notify_alarm</item>
+    <item name="drawable/stat_sys_data_bluetooth_connected">@drawable/com_android_systemui_stat_sys_data_bluetooth_connected</item>
+    <item name="drawable/stat_sys_data_bluetooth">@drawable/com_android_systemui_stat_sys_data_bluetooth</item>
+    <item name="drawable/stat_sys_data_connected_1x">@drawable/com_android_systemui_stat_sys_data_connected_1x</item>
+    <item name="drawable/stat_sys_data_connected_3g">@drawable/com_android_systemui_stat_sys_data_connected_3g</item>
+    <item name="drawable/stat_sys_data_connected_e">@drawable/com_android_systemui_stat_sys_data_connected_e</item>
+    <item name="drawable/stat_sys_data_connected_g">@drawable/com_android_systemui_stat_sys_data_connected_g</item>
+    <item name="drawable/stat_sys_data_connected_h">@drawable/com_android_systemui_stat_sys_data_connected_h</item>
+    <item name="drawable/stat_sys_data_fully_connected_1x">@drawable/com_android_systemui_stat_sys_data_fully_connected_1x</item>
+    <item name="drawable/stat_sys_data_fully_connected_3g">@drawable/com_android_systemui_stat_sys_data_fully_connected_3g</item>
+    <item name="drawable/stat_sys_data_fully_connected_4g">@drawable/com_android_systemui_stat_sys_data_fully_connected_4g</item>
+    <item name="drawable/stat_sys_data_fully_connected_e">@drawable/com_android_systemui_stat_sys_data_fully_connected_e</item>
+    <item name="drawable/stat_sys_data_fully_connected_g">@drawable/com_android_systemui_stat_sys_data_fully_connected_g</item>
+    <item name="drawable/stat_sys_data_fully_connected_h">@drawable/com_android_systemui_stat_sys_data_fully_connected_h</item>
+    <item name="drawable/stat_sys_data_fully_in_1x">@drawable/com_android_systemui_stat_sys_data_fully_in_1x</item>
+    <item name="drawable/stat_sys_data_fully_in_3g">@drawable/com_android_systemui_stat_sys_data_fully_in_3g</item>
+    <item name="drawable/stat_sys_data_fully_in_4g">@drawable/com_android_systemui_stat_sys_data_fully_in_4g</item>
+    <item name="drawable/stat_sys_data_fully_inandout_1x">@drawable/com_android_systemui_stat_sys_data_fully_inandout_1x</item>
+    <item name="drawable/stat_sys_data_fully_inandout_3g">@drawable/com_android_systemui_stat_sys_data_fully_inandout_3g</item>
+    <item name="drawable/stat_sys_data_fully_inandout_4g">@drawable/com_android_systemui_stat_sys_data_fully_inandout_4g</item>
+    <item name="drawable/stat_sys_data_fully_inandout_e">@drawable/com_android_systemui_stat_sys_data_fully_inandout_e</item>
+    <item name="drawable/stat_sys_data_fully_inandout_g">@drawable/com_android_systemui_stat_sys_data_fully_inandout_g</item>
+    <item name="drawable/stat_sys_data_fully_inandout_h">@drawable/com_android_systemui_stat_sys_data_fully_inandout_h</item>
+    <item name="drawable/stat_sys_data_fully_in_e">@drawable/com_android_systemui_stat_sys_data_fully_in_e</item>
+    <item name="drawable/stat_sys_data_fully_in_g">@drawable/com_android_systemui_stat_sys_data_fully_in_g</item>
+    <item name="drawable/stat_sys_data_fully_in_h">@drawable/com_android_systemui_stat_sys_data_fully_in_h</item>
+    <item name="drawable/stat_sys_data_fully_out_1x">@drawable/com_android_systemui_stat_sys_data_fully_out_1x</item>
+    <item name="drawable/stat_sys_data_fully_out_3g">@drawable/com_android_systemui_stat_sys_data_fully_out_3g</item>
+    <item name="drawable/stat_sys_data_fully_out_4g">@drawable/com_android_systemui_stat_sys_data_fully_out_4g</item>
+    <item name="drawable/stat_sys_data_fully_out_e">@drawable/com_android_systemui_stat_sys_data_fully_out_e</item>
+    <item name="drawable/stat_sys_data_fully_out_g">@drawable/com_android_systemui_stat_sys_data_fully_out_g</item>
+    <item name="drawable/stat_sys_data_fully_out_h">@drawable/com_android_systemui_stat_sys_data_fully_out_h</item>
+    <item name="drawable/stat_sys_data_in_1x">@drawable/com_android_systemui_stat_sys_data_in_1x</item>
+    <item name="drawable/stat_sys_data_in_3g">@drawable/com_android_systemui_stat_sys_data_in_3g</item>
+    <item name="drawable/stat_sys_data_inandout_1x">@drawable/com_android_systemui_stat_sys_data_inandout_1x</item>
+    <item name="drawable/stat_sys_data_inandout_3g">@drawable/com_android_systemui_stat_sys_data_inandout_3g</item>
+    <item name="drawable/stat_sys_data_inandout_e">@drawable/com_android_systemui_stat_sys_data_inandout_e</item>
+    <item name="drawable/stat_sys_data_inandout_g">@drawable/com_android_systemui_stat_sys_data_inandout_g</item>
+    <item name="drawable/stat_sys_data_inandout_h">@drawable/com_android_systemui_stat_sys_data_inandout_h</item>
+    <item name="drawable/stat_sys_data_in_e">@drawable/com_android_systemui_stat_sys_data_in_e</item>
+    <item name="drawable/stat_sys_data_in_g">@drawable/com_android_systemui_stat_sys_data_in_g</item>
+    <item name="drawable/stat_sys_data_in_h">@drawable/com_android_systemui_stat_sys_data_in_h</item>
+    <item name="drawable/stat_sys_data_out_1x">@drawable/com_android_systemui_stat_sys_data_out_1x</item>
+    <item name="drawable/stat_sys_data_out_3g">@drawable/com_android_systemui_stat_sys_data_out_3g</item>
+    <item name="drawable/stat_sys_data_out_e">@drawable/com_android_systemui_stat_sys_data_out_e</item>
+    <item name="drawable/stat_sys_data_out_g">@drawable/com_android_systemui_stat_sys_data_out_g</item>
+    <item name="drawable/stat_sys_data_out_h">@drawable/com_android_systemui_stat_sys_data_out_h</item>
+    <item name="drawable/stat_sys_r_signal_0">@drawable/com_android_systemui_stat_sys_r_signal_0</item>
+    <item name="drawable/stat_sys_r_signal_0_fully">@drawable/com_android_systemui_stat_sys_r_signal_0_fully</item>
+    <item name="drawable/stat_sys_r_signal_1">@drawable/com_android_systemui_stat_sys_r_signal_1</item>
+    <item name="drawable/stat_sys_r_signal_1_fully">@drawable/com_android_systemui_stat_sys_r_signal_1_fully</item>
+    <item name="drawable/stat_sys_r_signal_2">@drawable/com_android_systemui_stat_sys_r_signal_2</item>
+    <item name="drawable/stat_sys_r_signal_2_fully">@drawable/com_android_systemui_stat_sys_r_signal_2_fully</item>
+    <item name="drawable/stat_sys_r_signal_3">@drawable/com_android_systemui_stat_sys_r_signal_3</item>
+    <item name="drawable/stat_sys_r_signal_3_fully">@drawable/com_android_systemui_stat_sys_r_signal_3_fully</item>
+    <item name="drawable/stat_sys_r_signal_4">@drawable/com_android_systemui_stat_sys_r_signal_4</item>
+    <item name="drawable/stat_sys_r_signal_4_fully">@drawable/com_android_systemui_stat_sys_r_signal_4_fully</item>
+    <item name="drawable/stat_sys_signal_0">@drawable/com_android_systemui_stat_sys_signal_0</item>
+    <item name="drawable/stat_sys_signal_0_fully">@drawable/com_android_systemui_stat_sys_signal_0_fully</item>
+    <item name="drawable/stat_sys_signal_1">@drawable/com_android_systemui_stat_sys_signal_1</item>
+    <item name="drawable/stat_sys_signal_1_fully">@drawable/com_android_systemui_stat_sys_signal_1_fully</item>
+    <item name="drawable/stat_sys_signal_2">@drawable/com_android_systemui_stat_sys_signal_2</item>
+    <item name="drawable/stat_sys_signal_2_fully">@drawable/com_android_systemui_stat_sys_signal_2_fully</item>
+    <item name="drawable/stat_sys_signal_3">@drawable/com_android_systemui_stat_sys_signal_3</item>
+    <item name="drawable/stat_sys_signal_3_fully">@drawable/com_android_systemui_stat_sys_signal_3_fully</item>
+    <item name="drawable/stat_sys_signal_4">@drawable/com_android_systemui_stat_sys_signal_4</item>
+    <item name="drawable/stat_sys_signal_4_fully">@drawable/com_android_systemui_stat_sys_signal_4_fully</item>
+    <item name="drawable/stat_sys_signal_null">@drawable/com_android_systemui_stat_sys_signal_null</item>
+    <item name="drawable/stat_sys_wifi_signal_0">@drawable/com_android_systemui_stat_sys_wifi_signal_0</item>
+    <item name="drawable/stat_sys_wifi_signal_0_fully">@drawable/com_android_systemui_stat_sys_wifi_signal_0_fully</item>
+    <item name="drawable/stat_sys_wifi_signal_1">@drawable/com_android_systemui_stat_sys_wifi_signal_1</item>
+    <item name="drawable/stat_sys_wifi_signal_1_fully">@drawable/com_android_systemui_stat_sys_wifi_signal_1_fully</item>
+    <item name="drawable/stat_sys_wifi_signal_2">@drawable/com_android_systemui_stat_sys_wifi_signal_2</item>
+    <item name="drawable/stat_sys_wifi_signal_2_fully">@drawable/com_android_systemui_stat_sys_wifi_signal_2_fully</item>
+    <item name="drawable/stat_sys_wifi_signal_3">@drawable/com_android_systemui_stat_sys_wifi_signal_3</item>
+    <item name="drawable/stat_sys_wifi_signal_3_fully">@drawable/com_android_systemui_stat_sys_wifi_signal_3_fully</item>
+    <item name="drawable/stat_sys_wifi_signal_4">@drawable/com_android_systemui_stat_sys_wifi_signal_4</item>
+    <item name="drawable/stat_sys_wifi_signal_4_fully">@drawable/com_android_systemui_stat_sys_wifi_signal_4_fully</item>
+    <item name="drawable/statusbar_background">@drawable/com_android_systemui_statusbar_background</item>
+    <item name="drawable/status_bar_close_on">@drawable/com_android_systemui_status_bar_close_on</item>
+    <item name="drawable/title_bar_portrait">@drawable/com_android_systemui_title_bar_portrait</item>
+</resource-redirections>

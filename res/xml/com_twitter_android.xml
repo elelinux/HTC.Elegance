@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright (C) 2011 Esa Laukkanen <ele.linux@gmail.com>
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resource-redirections>
+    <item name="color/gray_color">@color/gray_color</item>
+    <item name="color/text_color">@color/text_color</item>
+    <item name="drawable/appwidget_background">@drawable/appwidget_background</item>
+    <item name="drawable/appwidget_bg">@drawable/com_twitter_android_appwidget_bg</item>
+    <item name="drawable/list_rule">@drawable/list_rule</item>
+    <item name="drawable/list_selector_focused">@drawable/com_twitter_android_list_selector_focused</item>
+    <item name="drawable/list_selector_pressed">@drawable/com_twitter_android_list_selector_pressed</item>
+    <item name="drawable/tab_bar_background">@drawable/com_twitter_android_tab_bar_background</item>
+    <item name="drawable/tab_bar_item_background_selected">@drawable/com_twitter_android_tab_bar_item_background_selected</item>
+</resource-redirections>

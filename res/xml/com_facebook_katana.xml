@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-redirections>
+    <item name="drawable/appwidget_bg">@drawable/com_facebook_katana_appwidget_bg</item>
+    <item name="drawable/appwidget_top_white">@drawable/com_facebook_katana_appwidget_top_white</item>
+    <item name="style/Theme.WhiteText">@style/VendingTheme</item>
+    <item name="color/text_color">@color/widget_text</item>
+    <item name="drawable/text_color">@drawable/widget_light_text</item>
+</resource-redirections>

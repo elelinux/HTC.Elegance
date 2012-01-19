@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright (C) 2011 Esa Laukkanen <ele.linux@gmail.com>
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources>
+    <drawable name="screen_background_dark">@drawable/system_background</drawable>
+    <drawable name="alert_fullDark_frame">@drawable/frameworks_res_popup_full_dark</drawable>
+    <drawable name="alert_topDark_frame">@drawable/frameworks_res_popup_top_dark</drawable>
+    <drawable name="alert_centerDark_frame">@drawable/frameworks_res_popup_center_dark</drawable>
+    <drawable name="alert_bottomDark_frame">@drawable/frameworks_res_popup_bottom_dark</drawable>
+    <drawable name="alert_fullBright_frame">@drawable/frameworks_res_popup_full_bright</drawable>
+    <drawable name="alert_topBright_frame">@drawable/frameworks_res_popup_top_bright</drawable>
+    <drawable name="alert_centerBright_frame">@drawable/frameworks_res_popup_center_bright</drawable>
+    <drawable name="alert_bottomBright_frame">@drawable/frameworks_res_popup_bottom_bright</drawable>
+    <drawable name="alert_bottomMedium_frame">@drawable/frameworks_res_popup_bottom_medium</drawable> 
+    <drawable name="alert_centerMedium_frame">@drawable/frameworks_res_popup_center_medium</drawable>
+    <drawable name="dialog_frame">@drawable/frameworks_res_panel_background</drawable>
+    <drawable name="menu_submenu_frame">@drawable/frameworks_res_menu_submenu_background</drawable>
+    <drawable name="editbox_dropdown_dark_frame">@drawable/frameworks_res_editbox_background_normal</drawable>
+    <drawable name="editbox_dropdown_light_frame">@drawable/frameworks_res_editbox_dropdown_background</drawable>
+<!--
+    <item type="drawable" name="screen_background_dark">#ff000000</item>
+-->
+    <item type="drawable" name="screen_background_light">#ffffffff</item>
+    <drawable name="screen_background_dark_transparent">#80000000</drawable>
+<!--
+    <item type="drawable" name="screen_background_light_transparent">#80ffffff</item>
+-->
+    <drawable  name="screen_background_light_transparent">#80ffffff</drawable>
+    <item type="drawable" name="status_bar_closed_default_background">#ff000000</item>
+    <item type="drawable" name="status_bar_opened_default_background">#ff000000</item>
+    <item type="drawable" name="search_bar_default_color">#ff000000</item>
+    <item type="drawable" name="safe_mode_background">#60000000</item>
+    <item type="drawable" name="input_method_fullscreen_background">#fff9f9f9</item>
+    <item type="drawable" name="selected_day_background">#ff0092f4</item>
+    <item type="drawable" name="widget_light_text">#ffbbbbbb</item>
+</resources>
